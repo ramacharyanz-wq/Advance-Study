@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Destinations | Advance Study</title>
+<meta name="description" content="Explore hospitality internship destinations in Nepal, India, UAE, Qatar, Thailand, Turkey, New Zealand, and Australia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+  <div class="wrap nav">
+    <a href="index.html" class="brand">
+      <img src="assets/logo-dark.svg" alt="Advance Study" class="static-nav-logo">
+    </a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="destinations.html" class="active">Destinations</a>
+      <a href="index.html#how-it-works">How it works</a>
+      <a href="index.html#contact">Contact</a>
+      <a href="index.html#contact" class="btn btn-primary nav-cta">Start your application</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+  <section style="padding-bottom:1.5rem;">
+    <div class="wrap">
+      <div class="section-head dest-intro">
+        <h2>Where you could train next</h2>
+        <p class="lede">Pick a destination to see the roles, visa pathway, and typical placement length. Visa rules can change, so we confirm the exact requirements for your situation when you apply.</p>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0;">
+    <div class="wrap">
+      <div class="dest-layout">
+        <div class="dest-list" id="destList">
+          <button data-id="nepal" class="active">Nepal</button>
+          <button data-id="india">India</button>
+          <button data-id="uae">United Arab Emirates</button>
+          <button data-id="qatar">Qatar</button>
+          <button data-id="thailand">Thailand</button>
+          <button data-id="turkey">Turkey</button>
+          <button data-id="newzealand">New Zealand</button>
+          <button data-id="australia">Australia</button>
+        </div>
+
+        <div class="dest-panel" id="destPanel">
+          <!-- populated by script.js -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-banner">
+    <div class="wrap">
+      <h2>Not sure which destination fits you?</h2>
+      <div class="cta-row">
+        <a href="index.html#contact" class="btn btn-amber">Talk to our team</a>
+        <a href="index.html#contact" class="btn btn-secondary">Start your application</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer" id="contact">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <img src="assets/logo-light.svg" alt="Advance Study">
+      <p>Hospitality training and internship placement, based in Butwal, Nepal.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <a href="tel:+640224928708" class="contact-line"><img src="assets/icons/flag-nz.svg" class="flag-icon" alt="New Zealand">+64 02 2492 8708</a>
+      <a href="tel:+9779867403029" class="contact-line"><img src="assets/icons/flag-nepal.svg" class="flag-icon flag-icon-nepal" alt="Nepal">+977 986 740 3029</a>
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ramacharya.nz@gmail.com" target="_blank" rel="noopener" class="contact-line"><img src="assets/icons/email.svg" class="contact-icon" alt="">ramacharya.nz@gmail.com</a>
+    </div>
+    <div class="footer-col">
+      <h4>Location</h4>
+      <p>Tilottama, Butwal, Nepal</p>
+      <a href="https://www.google.com/maps?q=Tilottama,Nepal" target="_blank" rel="noopener">View on Google Maps</a>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© 2026 Advance Study. All rights reserved.</span>
+    <span>Butwal, Nepal</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

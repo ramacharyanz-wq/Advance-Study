@@ -1,0 +1,5 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Traditional dhow boat with a triangular sail">
+  <path d="M14 84 Q60 100 106 84 L96 92 Q60 106 24 92 Z" fill="none" stroke="#073F3E" stroke-width="4.5" stroke-linejoin="round"/>
+  <line x1="58" y1="84" x2="58" y2="26" stroke="#073F3E" stroke-width="4" stroke-linecap="round"/>
+  <path d="M58 28 L90 78 L58 78 Z" fill="#FFB950" stroke="#073F3E" stroke-width="2.5" stroke-linejoin="round"/>
+</svg>

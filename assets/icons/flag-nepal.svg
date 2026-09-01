@@ -1,0 +1,6 @@
+<svg viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Nepal flag">
+  <path d="M1,1 L9,6.2 L1,6.2 Z" fill="#DC143C" stroke="#00248F" stroke-width="0.9" stroke-linejoin="round"/>
+  <path d="M1,6.2 L11,14.6 L1,14.6 Z" fill="#DC143C" stroke="#00248F" stroke-width="0.9" stroke-linejoin="round"/>
+  <circle cx="3.6" cy="3.6" r="0.95" fill="#fff"/>
+  <circle cx="4.6" cy="10.4" r="1.05" fill="#fff"/>
+</svg>

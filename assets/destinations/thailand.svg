@@ -1,0 +1,7 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tiered temple spire">
+  <line x1="20" y1="92" x2="100" y2="92" stroke="#073F3E" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M34 92 L86 92 L74 74 L46 74 Z" fill="none" stroke="#073F3E" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M42 74 L78 74 L68 58 L52 58 Z" fill="none" stroke="#073F3E" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M50 58 L70 58 L60 30 Z" fill="none" stroke="#073F3E" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="60" cy="24" r="4" fill="#FFB950"/>
+</svg>
